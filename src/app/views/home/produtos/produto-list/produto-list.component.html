@@ -1,0 +1,7 @@
+<div style="width: 374px;" fxLayout="column" fxLayoutAlign="space-around center">
+    <app-produto style="padding-bottom: 16px;" *ngFor="let produto of produtos"
+        [cor]="produto.color"
+        [texto]="produto.text"
+        [titulo]="produto.title">
+    </app-produto>
+</div>

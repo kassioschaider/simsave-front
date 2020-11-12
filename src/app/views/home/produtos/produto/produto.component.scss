@@ -1,0 +1,46 @@
+.mat-card {
+    width: 374px;
+    height: 356px;
+    padding: 0px 16px;
+    box-shadow: none;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+
+    .mat-card-actions:last-child {
+        padding-bottom: 35px;
+        margin: 0px;
+    }
+}
+
+.mat-card-header .mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    line-height: 17px;
+    padding-top: 10px;
+}
+
+.mat-card-content {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin: 0px;
+}
+
+.mat-stroked-button {
+    line-height: 19px;
+    font-size: 14px;
+    padding: 9px 32px;
+    border-color: #E0E0E0;
+}
+
+.retangulo-topo {
+    width: 40px;
+    height: 5px;
+    border-radius: 0px 0px 5px 5px;
+}

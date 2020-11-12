@@ -1,0 +1,12 @@
+<mat-card fxLayout="column" fxLayoutAlign="space-between center">
+    <div class="retangulo-topo" [ngStyle]="{'background-color': cor }"></div>
+    <mat-card-header>
+        <mat-card-title [ngStyle]="{'color': cor }">{{ titulo }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{ texto }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-stroked-button [ngStyle]="{'color': cor }">Saiba mais</button>
+    </mat-card-actions> 
+</mat-card>

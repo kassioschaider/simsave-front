@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "simsave"
+  "defaultProject": "simsave",
+  "cli": {
+    "analytics": "ad595fb0-3dc7-4c8e-a92f-b6e5d2575881"
+  }
 }
