@@ -49,5 +49,36 @@
 }
 
 .logo-footer {
-    padding-top: 10px;
+    padding-top: 40px;
+}
+
+.social-media {
+    padding-top: 30px;
+
+    img {
+        padding: 8px;
+    }
+}
+
+.fale-conosco {
+    padding-top: 30px;
+
+    p {
+        text-align: center;
+        color: #B3BDCC;
+    }
+}
+
+.fale-conosco-titulo {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+
+.fale-conosco-conteudo {
+    font-size: 18px;
+    font-weight: 22px;
+    padding: 15px 40px;
 }
