@@ -1,0 +1,30 @@
+.mat-toolbar-single-row {
+    width: 414px;
+}
+
+a {
+    margin-top: 10px;
+}
+
+.buttons-header {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mat-stroked-button {
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 124px;
+    border-radius: 2px;
+}
+
+.button-header-entrar {
+    color: #2196F3;
+}
+
+.button-header-cadastrar {
+    color: white;
+    background-color: #1767E5;
+}
+

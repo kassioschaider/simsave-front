@@ -13,10 +13,10 @@ import { ProdutoComponent } from './produto/produto.component';
     exports: [ ProdutoComponent, ProdutoListComponent ],
     imports: [
       HttpClientModule,
+      CommonModule,
       MatCardModule,
-      MatButtonModule,
       FlexLayoutModule,
-      CommonModule
+      MatButtonModule
     ]
   })
 export class ProdutosModule {}
