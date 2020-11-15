@@ -1,0 +1,14 @@
+@media (min-width: 1300px) {
+
+    .list-produtos {
+        flex-direction: row !important;
+    }
+
+    app-produto {
+        padding-left: 16px;
+    }
+}
+
+app-produto {
+    padding-bottom: 16px;
+}

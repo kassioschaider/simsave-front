@@ -2,8 +2,26 @@
     margin-top: 10px;
 }
 
+.logo-mobile {
+    display: block;
+}
+
+.logo-full {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+
+    .logo-mobile {
+        display: none;
+    }
+    
+    .logo-full {
+        display: block;
+    }
+}
+
 .buttons-header {
-    width: 70%;
     display: flex;
     justify-content: space-around;
 }
@@ -17,10 +35,10 @@
 
 .button-header-entrar {
     color: #2196F3;
+    margin-right: 20px;
 }
 
 .button-header-cadastrar {
     color: white;
     background-color: #1767E5;
 }
-

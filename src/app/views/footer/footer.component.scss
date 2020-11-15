@@ -1,12 +1,12 @@
 .retangulo-footer { 
     background-color: #1767E5;
     height: 208px;
-    width: 414px;
+    width: 100%;
     opacity: 10%;
 }
 
 .mat-card {
-    width: 344px;
+    max-width: 644px;
     height: 270px;
     box-shadow: none;
     border-radius: 15px;
@@ -49,7 +49,7 @@
 }
 
 .logo-footer {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .social-media {
@@ -61,10 +61,14 @@
 }
 
 .fale-conosco {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center;
+    align-items: center;
     padding-top: 30px;
 
     p {
-        text-align: center;
         color: #B3BDCC;
     }
 }
@@ -79,6 +83,48 @@
 
 .fale-conosco-conteudo {
     font-size: 18px;
-    font-weight: 22px;
-    padding: 15px 40px;
+    padding: 15px 50px;
+    text-align: center;
+}
+
+.card-footer {
+    padding: 0px 25px;
+}
+
+.content-footer {
+    width: 90%;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+@media (min-width: 1024px) {
+
+    .content-footer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .fale-conosco {
+        width: 33%;
+        align-items: baseline;
+        padding-top: 8px;
+    }
+
+    .fale-conosco-conteudo {
+        text-align: left;
+    }
+
+    .social-media {
+        width: 33%;
+        padding-top: 0px;
+    }
+
+    .logo-footer {
+        width: 33%;
+        padding-top: 0px;
+    }
 }

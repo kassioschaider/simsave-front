@@ -1,5 +1,5 @@
-<div style="margin-top: -60px;" fxLayout="column" fxLayoutAlign="space-around center">
-    <app-produto style="padding-bottom: 16px;" 
+<div class="list-produtos" style="margin-top: -60px;" fxLayout="column" fxLayoutAlign="space-around center">
+    <app-produto
         *ngFor="let produto of produtos"
             [cor]="produto.color"
             [texto]="produto.text"
